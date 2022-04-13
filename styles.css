@@ -1,0 +1,41 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --capblack: #272a31;
+  --caporange: #ec5242;
+  --capgrey: #d3d3d3;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+@font-face {
+  font-family: Cocogoose;
+  src: url('../fonts/Cocogoose.otf');
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.nav-bar-mobile div {
+  height: 5px;
+  margin: 5px;
+  background-color: #545454;
+}
+
+.nav-bar-mobile {
+  width: 40px;
+  margin: 20px 0 0 20px;
+  position: absolute;
+  top: 0;
+  background-color: transparent;
+}
