@@ -1,0 +1,44 @@
+.intro-about {
+  padding-top: 100px;
+  padding-bottom: 70px;
+  text-align: center;
+  background-color: #e4e2e2;
+}
+
+.intro-title-about h3 {
+  margin-top: 10px;
+  color: var(--caporange);
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.intro-title-about h1 {
+  font-family: Cocogoose;
+  font-weight: 900;
+  color: var(--caporange);
+  font-size: 30px;
+}
+
+
+.intro-title-about h3,
+h1 {
+  margin-left: 20px;
+}
+
+.intro-text-about {
+  margin: 20px auto 0 auto;
+  background-color: var(--capgrey);
+  padding: 10px;
+  border: solid white;
+  width: 90%;
+}
+
+.intro-contact {
+  width: 70%;
+  margin: 30px auto;
+}
+
+.contact-email {
+  margin-top: 5px;
+  text-decoration: underline;
+}
