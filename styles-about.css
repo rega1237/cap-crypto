@@ -70,3 +70,54 @@ h1 {
   padding: 10px 0;
   width: 90%;
 }
+
+.past-convention {
+  width: 90%;
+  margin: 30px auto;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.past-title h2{
+  font-weight: 500;
+}
+
+.past-convention-card{
+  display: flex;
+}
+
+.card-past {
+  background:
+  linear-gradient(
+    0deg,
+    rgba(236, 82, 66, 0.6),
+    rgba(236, 82, 66, 0.6)
+  ),
+  url('images/spain.png') no-repeat top center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40vw;
+}
+
+.card-past h3 {
+  font-family: 'Cocogoose', sans-serif;
+  color: var(--capgrey);
+}
+
+.card-past h4 {
+  color: var(--capgrey);
+}
+
+.past-convention-card{
+  flex-direction: column;
+}
+
+.spain {
+  margin-top: 30px;
+}
+
+.argentina {
+  margin-top: 20px;
+}
