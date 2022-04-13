@@ -39,3 +39,52 @@ main {
   top: 0;
   background-color: transparent;
 }
+
+.intro {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-image: url('images/mobile-header-bg.png');
+  box-shadow: inset 0 0 0 1000px rgba(201, 200, 200, 0.4);
+  background-size: cover;
+  background-position: auto;
+  background-repeat: no-repeat;
+}
+
+.intro-title h3 {
+  margin-top: 30px;
+  color: var(--caporange);
+}
+
+.intro-title h1 {
+  font-family: Cocogoose;
+  font-weight: 900;
+  background-image: url('images/crypto-letter.jpg');
+  background-size: 100% 100%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 30px;
+}
+
+.intro-title h3,
+h1 {
+  margin-left: 20px;
+}
+
+.intro-text {
+  background-color: var(--capgrey);
+  padding: 10px;
+  border: solid white;
+  width: 90%;
+  margin: 20px auto 0 auto;
+}
+
+.intro-date{
+  margin: 40px 0 0 20px;
+  color: var(--capblack);
+}
+
+.intro-date h2 {
+  font-weight: 900;
+}
+
