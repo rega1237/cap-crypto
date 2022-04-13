@@ -88,3 +88,66 @@ h1 {
   font-weight: 900;
 }
 
+.main-program {
+  background-image: url(images/section-main.png);
+  background-repeat: repeat;
+  background-color: #272a32;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.main-program-title {
+  text-align: center;
+  color: var(--capgrey);
+}
+
+.orange-line {
+  background-color: var(--caporange);
+  width: 30px;
+  height: 2px;
+  margin: 10px auto 30px;
+}
+
+.main-program-element {
+  display: flex;
+  background-color: rgba(210, 210, 210, 0.2);
+  color: white;
+  padding: 15px;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.main-program-element h3 {
+  color: #ec5242;
+  width: 30%;
+  margin-right: 20px; 
+}
+
+.main-program-elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-program-element img {
+  width: 30%;
+  margin-right: 20px;
+}
+
+.mid-program {
+  margin-top: 15px;
+}
+
+.join-button{
+  margin-top: 40px;
+  text-align: center;
+}
+
+.join-button button {
+  padding: 1.5rem 2rem;
+  font-size: 4vw;
+  border: none;
+  background-color: var(--caporange);
+  color: var(--capgrey);
+}
