@@ -157,11 +157,6 @@ h1 {
   flex-direction: column;
 }
 
-.other-speakers {
-  display: none;
-  flex-direction: column;
-}
-
 .featured-speakers-title h2 {
   text-align: center;
   margin-top: 30px;
@@ -211,4 +206,51 @@ h1 {
 .more-arrow {
   color: var(--caporange);
   font-weight: 800;
+}
+
+.other-speakers {
+  display: none;
+  flex-direction: column;
+}
+
+.partner-section {
+  background-color: #b5b5b5;
+  padding: 30px 0;
+}
+
+.partner-title {
+  text-align: center;
+}
+
+.partners-logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+} 
+
+.partners-logo img {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#binance {
+  margin-top: -50px;
+}
+
+#crypto {
+  margin-top: -90px;
+}
+
+#coingecko {
+  margin-top: -50px;
+}
+
+#coinmarketcap {
+  margin-top: -90px;
+}
+
+#coinbase {
+  margin-top: -140px;
 }
