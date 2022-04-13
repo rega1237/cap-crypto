@@ -42,3 +42,31 @@ h1 {
   margin-top: 5px;
   text-decoration: underline;
 }
+
+.title-logo {
+  margin: 30px auto 0 auto;
+}
+
+.title-logo h2 {
+  margin: 30px auto 0 auto;
+  width: 60%;
+  text-align: center;
+  font-size: 1.8em;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+.title-logo p {
+  width: 80%;
+  color: var(--capblack);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo-container {
+  text-align: center;
+  margin: 40px auto 0 auto;
+  border: solid 1px var(--capgrey);
+  padding: 10px 0;
+  width: 90%;
+}
