@@ -151,3 +151,64 @@ h1 {
   background-color: var(--caporange);
   color: var(--capgrey);
 }
+
+.featured-speakers {
+  display: flex;
+  flex-direction: column;
+}
+
+.other-speakers {
+  display: none;
+  flex-direction: column;
+}
+
+.featured-speakers-title h2 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.speaker {
+  display: flex;
+  margin: 20px;
+}
+
+.text-speaker {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.text-speaker h4 {
+  margin: 10px 0;
+  color: var(--caporange);
+  font-style: italic;
+}
+
+.text-speaker p {
+  font-size: 14px;
+}
+
+.gray-line {
+  background-color: var(--capgrey);
+  width: 20px;
+  height: 2px;
+  margin-bottom: 10px;
+}
+
+.button-speaker {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.more-button {
+  padding: 10px 0;
+  font-size: 4vw;
+  border: none;
+  background-color: #ffff;
+  border: solid 1px var(--capgrey);
+  width: 90%;
+}
+
+.more-arrow {
+  color: var(--caporange);
+  font-weight: 800;
+}
