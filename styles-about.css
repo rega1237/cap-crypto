@@ -118,7 +118,7 @@
   .intro-about {
     background-color: #e4e2e2;
   }
-  
+
   .intro-title-about h1 {
     font-size: 30px;
   }
@@ -149,7 +149,7 @@
     background-image: url("images/about-background.png");
     background-color: var(--capgrey);
   }
-  
+
   #actual-menu {
     color: var(--caporange);
     text-decoration: underline;
