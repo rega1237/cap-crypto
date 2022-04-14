@@ -1,16 +1,16 @@
 // Menu mobile
 const popMenu = document.getElementById('mobile-links');
 const hamburgerMenu = document.querySelector('.nav-bar-mobile');
-const closeBtn = document.querySelector('.fa-x')
+const closeBtn = document.querySelector('.fa-x');
 let mobileMenuStatus = false;
 
 function mobilePopMenu() {
   if (popMenu.style.display === 'block') {
     popMenu.style.display = 'none';
-    mobileMenuStatus = true
+    mobileMenuStatus = true;
   } else {
     popMenu.style.display = 'block';
-    mobileMenuStatus = false
+    mobileMenuStatus = false;
   }
 }
 

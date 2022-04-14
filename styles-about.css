@@ -13,14 +13,13 @@
 }
 
 .intro-title-about h1 {
-  font-family: 'Cocogoose Compressed Trial', sans-serif;
+  font-family: "Cocogoose Compressed Trial", sans-serif;
   font-weight: 900;
   color: var(--caporange);
 }
 
-
-.intro-title-about h3,
-h1 {
+.intro-title-about h1,
+.intro-title-about h3 {
   margin-left: 20px;
 }
 
@@ -45,7 +44,8 @@ h1 {
   margin: 30px auto 0 auto;
 }
 
-.title-logo h2 {  
+.title-logo h2 {
+  margin: 30px auto 0 auto;
   width: 60%;
   text-align: center;
   font-size: 1.8em;
@@ -75,22 +75,22 @@ h1 {
   padding-bottom: 30px;
 }
 
-.past-title h2{
+.past-title h2 {
   font-weight: 500;
 }
 
-.past-convention-card{
+.past-convention-card {
   display: flex;
 }
 
 .card-past {
   background:
-  linear-gradient(
-    0deg,
-    rgba(236, 82, 66, 0.6),
-    rgba(236, 82, 66, 0.6)
-  ),
-  url('images/spain.png') no-repeat top center;
+    linear-gradient(
+      0deg,
+      rgba(236, 82, 66, 0.6),
+      rgba(236, 82, 66, 0.6)
+    ),
+    url("images/spain.png") no-repeat top center;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -102,7 +102,7 @@ h1 {
 }
 
 .card-past h3 {
-  font-family: 'Cocogoose Compressed Trial', sans-serif;
+  font-family: "Cocogoose Compressed Trial", sans-serif;
   color: var(--capgrey);
 }
 
@@ -115,27 +115,19 @@ h1 {
   padding-bottom: 40px;
 }
 
-.title-logo h2 {
-  margin: 30px auto 0 auto;
-  width: 60%;
-  text-align: center;
-  font-size: 1.8em;
-  line-height: 40px;
-}
-
-@media only screen and (max-width: 767px) { 
+@media only screen and (max-width: 767px) {
   .intro-title-about h1 {
     font-size: 30px;
   }
-  
+
   .intro-text-about {
     width: 90%;
   }
 
-  .past-convention-card{
+  .past-convention-card {
     flex-direction: column;
   }
-  
+
   .card-past {
     height: 40vw;
   }
@@ -143,7 +135,7 @@ h1 {
   .spain {
     margin-top: 30px;
   }
-  
+
   .argentina {
     margin-top: 20px;
   }
@@ -154,13 +146,13 @@ h1 {
     color: var(--caporange);
     text-decoration: underline;
   }
-  
+
   .intro-title-about h1 {
     font-size: 40px;
     width: 50%;
     margin: 0 auto;
   }
-  
+
   .intro-text-about {
     width: 60%;
   }
