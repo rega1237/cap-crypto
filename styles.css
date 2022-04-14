@@ -37,6 +37,7 @@ main {
   background-size: 100% 100%;
   color: transparent;
   -webkit-background-clip: text;
+  background-clip: border-box;
 }
 
 .intro-title h3,
