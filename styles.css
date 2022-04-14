@@ -23,62 +23,6 @@ main {
 
 #mobile-links {
   display: none;
-  width: 100%;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  background-color: #ffff;
-  line-height: 30px;
-  background-color: var(--capgrey);
-}
-
-.fa-x {
-  margin: 25px 0 0 25px;
-}
-
-#mobile-links ul {
-  padding-top: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-}
-
-#mobile-links li {
-  margin-left: 25px;
-  list-style: none;
-}
-
-#mobile-links a {
-  text-decoration: none;
-  color: var(--capblack);
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 44px;
-}
-
-.nav-bar-mobile div {
-  height: 5px;
-  margin: 5px;
-  background-color: #545454;
-}
-
-.nav-bar-mobile {
-  width: 40px;
-  margin: 20px 0 0 20px;
-  position: absolute;
-  top: 0;
-  background-color: transparent;
-}
-
-.intro {
-  padding-top: 100px;
-  padding-bottom: 50px;
-  background-image: url('images/mobile-header-bg.png');
-  box-shadow: inset 0 0 0 1000px rgba(201, 200, 200, 0.4);
-  background-size: cover;
-  background-position: auto;
-  background-repeat: no-repeat;
 }
 
 .intro-title h3 {
@@ -94,8 +38,8 @@ main {
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  font-size: 30px;
 }
+
 
 .intro-title h3,
 h1 {
@@ -106,11 +50,9 @@ h1 {
   background-color: var(--capgrey);
   padding: 10px;
   border: solid white;
-  width: 90%;
-  margin: 20px auto 0 auto;
 }
 
-.intro-date{
+.intro-date {
   margin: 40px 0 0 20px;
   color: var(--capblack);
 }
@@ -145,50 +87,13 @@ h1 {
   color: white;
   padding: 15px;
   align-items: center;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
-.main-program-element h3 {
-  color: #ec5242;
-  width: 30%;
-  margin-right: 20px; 
+.main-program-element h3{
+  color: #ec5242
 }
 
-.main-program-elements {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.main-program-element img {
-  width: 30%;
-  margin-right: 20px;
-}
-
-.mid-program {
-  margin-top: 15px;
-}
-
-.join-button{
-  margin-top: 40px;
-  text-align: center;
-}
-
-.join-button button {
-  padding: 1.5rem 2rem;
-  font-size: 4vw;
-  border: none;
-  background-color: var(--caporange);
-  color: var(--capgrey);
-}
-
-.featured-speakers {
-  display: flex;
-  flex-direction: column;
-}
-
-.featured-speakers-title h2 {
+.features-speakers-title h2 {
   text-align: center;
   margin-top: 30px;
 }
@@ -239,11 +144,6 @@ h1 {
   font-weight: 800;
 }
 
-.other-speakers {
-  display: none;
-  flex-direction: column;
-}
-
 .partner-section {
   background-color: #b5b5b5;
   padding: 30px 0;
@@ -257,33 +157,10 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  flex-direction: column;
 } 
 
 .partners-logo img {
   display: block;
-  width: 80%;
-  margin: 0 auto;
-}
-
-#binance {
-  margin-top: -50px;
-}
-
-#crypto {
-  margin-top: -90px;
-}
-
-#coingecko {
-  margin-top: -50px;
-}
-
-#coinmarketcap {
-  margin-top: -90px;
-}
-
-#coinbase {
-  margin-top: -140px;
 }
 
 footer {
@@ -300,4 +177,344 @@ footer img {
   display: block;
   max-width: 100%;
   max-height: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  .desktop-header,
+  .see-whole {
+    display: none;
+  }
+  .nav-bar-mobile div {
+    height: 5px;
+    margin: 5px;
+    background-color: #545454;
+  }
+  
+  .nav-bar-mobile {
+    width: 40px;
+    margin: 20px 0 0 20px;
+    position: absolute;
+    top: 0;
+    background-color: transparent;
+  }
+  
+  #mobile-links {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background-color: #ffff;
+    line-height: 30px;
+    background-color: var(--capgrey);
+  }
+  
+  .fa-x {
+    margin: 25px 0 0 25px;
+  }
+  
+  #mobile-links ul {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  #mobile-links li {
+    margin-left: 25px;
+    list-style: none;
+  }
+  
+  #mobile-links a {
+    text-decoration: none;
+    color: var(--capblack);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .intro {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-image: url('images/mobile-header-bg.png');
+    box-shadow: inset 0 0 0 1000px rgba(201, 200, 200, 0.4);
+    background-size: cover;
+    background-position: auto;
+    background-repeat: no-repeat;
+  }
+
+  .intro-title h1 {
+    font-size: 30px;
+  }
+
+  .intro-text {
+    width: 90%;
+    margin: 20px auto 0 auto;
+  }
+  .main-program {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .mid-program {
+    margin-top: 15px;
+  }
+
+  .main-program-elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-program-element img {
+    width: 30%;
+    margin-right: 20px;
+  }
+
+  .main-program-element {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .main-program-element h3{
+    width: 30%;
+    margin-right: 20px;
+    color: #ec5242
+  }
+
+  .join-button{
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .join-button button {
+    padding: 1.5rem 2rem;
+    font-size: 4vw;
+    border: none;
+    background-color: var(--caporange);
+    color: var(--capgrey);
+  }
+
+  .featured-speakers {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .other-speakers {
+    display: none;
+    flex-direction: column;
+  }
+
+  .partners-logo {
+    flex-direction: column;
+  }
+
+  .partners-logo img {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #binance {
+    margin-top: -50px;
+  }
+
+  #crypto {
+    margin-top: -90px;
+  }
+
+  #coingecko {
+    margin-top: -50px;
+  }
+
+  #coinmarketcap {
+    margin-top: -90px;
+  }
+
+  #coinbase {
+    margin-top: -140px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .top-menu {
+    background-color: var(--capblack);
+    padding: 10px 0;
+  } 
+
+  .menu-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+  }
+
+  .icons-brand {
+    display: flex;
+    gap: 15px;
+  }
+
+  .fa-brands {
+    color: var(--capgrey);
+    font-size: 20px;
+  }
+
+  .sign {
+    margin-left: 40px;
+    display: flex;
+    gap: 15px;
+  }
+
+  .sign a {
+    color: var(--capgrey);
+    text-decoration: none;
+  }
+
+  .nav-bar-desktop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  .desktop-links ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+
+  .nav-bar-desktop img {
+    display: block;
+    height: 50px;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .desktop-links a {
+    text-decoration: none;
+    color: var(--capblack);
+  }
+
+  #last-menu {
+    border: solid 3px var(--caporange);
+    color: var(--caporange);
+    padding: 10px;
+    margin-left: 40px;
+  }
+
+  .intro {
+    padding: 70px 0;
+    background-image: url("images/desktop-background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .intro-title{
+    width: 70%;
+    margin-left: 135px;
+  }
+  
+  .intro-title h3 {
+    font-size: 2rem;
+  }
+
+  .intro-title h1 {
+    font-size: 4rem;
+  }
+
+  .intro-text {
+    width: 50%;
+    margin-left: 155px;
+  }
+
+  .intro-date {
+    margin-left: 155px;
+  }
+
+  .intro-date h3 {
+    font-size: 1.2rem;
+  }
+
+  .intro-date p {
+    font-size: 1.3rem;
+  }
+
+  .main-program{
+    padding: 40px 0;
+  }
+
+  .main-program-title {
+    font-size: 1.4rem;
+  }
+  .main-program-elements {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 3px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .main-program-element {
+    flex-direction: column;
+  }
+
+  .main-program-element h3 {
+    font-weight: 800;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .main-program p {
+    text-align: center;
+  }
+
+  .main-program-element:hover {
+    border: solid 2px #ffff  ;
+  }
+
+  .join-button {
+    display: none;
+  }
+
+  .see-whole {
+    text-align: center;
+    padding: 3rem 0;
+  }
+
+  .see-whole a {
+    color: #ffff;
+    word-spacing: 0.2rem;
+    font-size: 0.8rem;
+  }
+
+  .speakers-div {
+    padding: 40px 0;
+  }
+
+  .featured-speakers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .button-speaker {
+    display: none;
+  }
+
+  .other-speakers {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .partners-logo img {
+    height: 150px;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
 }
