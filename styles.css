@@ -148,7 +148,7 @@ main {
 
 .partner-title {
   text-align: center;
-  color: #8a8a8a
+  color: #8a8a8a;
 }
 
 .partners-logo {
@@ -170,8 +170,6 @@ footer img {
   filter: grayscale(100%);
   filter: gray;
 }
-
-
 
 footer {
   padding: 30px 0;
@@ -318,7 +316,6 @@ footer {
     max-width: 100%;
     max-height: 100%;
   }
-
 }
 
 @media only screen and (min-width: 768px) {
@@ -501,7 +498,7 @@ footer {
     width: 80%;
     margin: 0 auto;
   }
- 
+
   .partners-logo img {
     height: 150px;
     width: auto;
