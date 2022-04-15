@@ -376,6 +376,11 @@ footer {
     flex-wrap: wrap;
   }
 
+  .desktop-links li :hover {
+    color: var(--caporange);
+    text-decoration: underline;
+  }
+
   .nav-bar-desktop img {
     display: block;
     height: 50px;
