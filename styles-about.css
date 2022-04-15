@@ -166,11 +166,30 @@
   }
 
   .past-convention-card {
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 30px;
+    gap: 30px;
   }
 
   .card-past {
-    padding: 100px;
+    padding: 120px;
+  }
+
+  .partner-section {
+    display: none;
+  }
+
+  footer {
+    background-color: #272a31;
+  }
+
+  footer img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+  }
+
+  .footer-text p {
+    color: var(--capgrey);
   }
 }
