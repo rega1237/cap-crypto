@@ -1,0 +1,195 @@
+.intro-about {
+  padding-top: 100px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+.intro-title-about h3 {
+  margin-top: 10px;
+  color: var(--caporange);
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.intro-title-about h1 {
+  font-family: "Cocogoose Compressed Trial", sans-serif;
+  font-weight: 900;
+  color: var(--caporange);
+}
+
+.intro-title-about h1,
+.intro-title-about h3 {
+  margin-left: 20px;
+}
+
+.intro-text-about {
+  margin: 20px auto 0 auto;
+  background-color: var(--capgrey);
+  padding: 10px;
+  border: solid white;
+}
+
+.intro-contact {
+  width: 70%;
+  margin: 30px auto;
+}
+
+.contact-email {
+  margin-top: 5px;
+  text-decoration: underline;
+}
+
+.title-logo {
+  margin: 30px auto 0 auto;
+}
+
+.title-logo h2 {
+  margin: 30px auto 0 auto;
+  width: 60%;
+  text-align: center;
+  font-size: 1.8em;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+.title-logo p {
+  width: 80%;
+  color: var(--capblack);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo-container {
+  text-align: center;
+  margin: 40px auto 0 auto;
+  border: solid 1px var(--capgrey);
+  padding: 10px 0;
+  width: 90%;
+}
+
+.past-convention {
+  width: 90%;
+  margin: 30px auto;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.past-title h2 {
+  font-weight: 500;
+}
+
+.past-convention-card {
+  display: flex;
+}
+
+.card-past {
+  background:
+    linear-gradient(
+      0deg,
+      rgba(236, 82, 66, 0.6),
+      rgba(236, 82, 66, 0.6)
+    ),
+    url("images/spain.png") no-repeat top center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-past:hover {
+  transform: scale(1.3);
+}
+
+.card-past h3 {
+  font-family: "Cocogoose Compressed Trial", sans-serif;
+  color: var(--capgrey);
+}
+
+.card-past h4 {
+  color: var(--capgrey);
+}
+
+.logo-about {
+  border: solid 1px var(--capgrey);
+  padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 767px) {
+  .intro-about {
+    background-color: #e4e2e2;
+  }
+
+  .intro-title-about h1 {
+    font-size: 30px;
+  }
+
+  .intro-text-about {
+    width: 90%;
+  }
+
+  .past-convention-card {
+    flex-direction: column;
+  }
+
+  .card-past {
+    height: 40vw;
+  }
+
+  .spain {
+    margin-top: 30px;
+  }
+
+  .argentina {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .intro-about {
+    background-image: url("images/about-background.png");
+    background-color: var(--capgrey);
+  }
+
+  #actual-menu {
+    color: var(--caporange);
+    text-decoration: underline;
+  }
+
+  .intro-title-about h1 {
+    font-size: 40px;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .intro-text-about {
+    width: 60%;
+  }
+
+  .past-convention-card {
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+  }
+
+  .card-past {
+    padding: 120px;
+  }
+
+  .partner-section {
+    display: none;
+  }
+
+  footer {
+    background-color: #272a31;
+  }
+
+  footer img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+  }
+
+  .footer-text p {
+    color: var(--capgrey);
+  }
+}

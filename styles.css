@@ -1,0 +1,511 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --capblack: #272a31;
+  --caporange: #ec5242;
+  --capgrey: #d3d3d3;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#mobile-links {
+  display: none;
+}
+
+.intro-title h3 {
+  margin-top: 30px;
+  color: var(--caporange);
+}
+
+.intro-title h1 {
+  font-family: "Cocogoose Compressed Trial", sans-serif;
+  font-weight: 900;
+  background-image: url("images/crypto-letter.jpg");
+  background-size: 100% 100%;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.intro-title h3,
+.intro-title h1 {
+  margin-left: 20px;
+}
+
+.intro-text {
+  background-color: var(--capgrey);
+  padding: 10px;
+  border: solid white;
+}
+
+.intro-date {
+  margin: 40px 0 0 20px;
+  color: var(--capblack);
+}
+
+.intro-date h2 {
+  font-weight: 900;
+}
+
+.main-program {
+  background-image: url(images/section-main.png);
+  background-repeat: repeat;
+  background-color: #272a32;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.main-program-title {
+  text-align: center;
+  color: var(--capgrey);
+}
+
+.orange-line {
+  background-color: var(--caporange);
+  width: 30px;
+  height: 2px;
+  margin: 10px auto 30px;
+}
+
+.main-program-element {
+  display: flex;
+  background-color: rgba(210, 210, 210, 0.2);
+  color: white;
+  padding: 15px;
+  align-items: center;
+}
+
+.main-program-element h3 {
+  color: #ec5242;
+}
+
+.featured-speakers-title h2 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.speaker {
+  display: flex;
+  margin: 20px;
+}
+
+.text-speaker {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.text-speaker h4 {
+  margin: 10px 0;
+  color: var(--caporange);
+  font-style: italic;
+}
+
+.text-speaker p {
+  font-size: 14px;
+}
+
+.gray-line {
+  background-color: var(--capgrey);
+  width: 20px;
+  height: 2px;
+  margin-bottom: 10px;
+}
+
+.button-speaker {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.more-button {
+  padding: 10px 0;
+  font-size: 4vw;
+  background-color: #ffff;
+  border: solid 1px var(--capgrey);
+  width: 90%;
+}
+
+.more-arrow {
+  color: var(--caporange);
+  font-weight: 800;
+}
+
+.partner-section {
+  background-color: #272a31;
+  padding: 30px 0;
+}
+
+.partner-title {
+  text-align: center;
+  color: #8a8a8a;
+}
+
+.partners-logo {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+}
+
+footer img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.partners-logo img {
+  display: block;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+}
+
+footer {
+  padding: 30px 0;
+  margin: 0 auto;
+}
+
+.footer-container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .desktop-header,
+  .see-whole {
+    display: none;
+  }
+
+  .nav-bar-mobile div {
+    height: 5px;
+    margin: 5px;
+    background-color: #545454;
+  }
+
+  .nav-bar-mobile {
+    width: 40px;
+    margin: 20px 0 0 20px;
+    position: absolute;
+    top: 0;
+    background-color: transparent;
+  }
+
+  #mobile-links {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    line-height: 30px;
+    background-color: var(--capgrey);
+  }
+
+  .fa-x {
+    margin: 25px 0 0 25px;
+  }
+
+  #mobile-links ul {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .partners-logo li {
+    width: 30%;
+  }
+
+  #mobile-links li {
+    margin-left: 25px;
+    list-style: none;
+  }
+
+  #mobile-links a {
+    text-decoration: none;
+    color: var(--capblack);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .intro {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-image: url("images/mobile-header-bg.png");
+    box-shadow: inset 0 0 0 1000px rgba(201, 200, 200, 0.4);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .intro-title h1 {
+    font-size: 30px;
+  }
+
+  .intro-text {
+    width: 90%;
+    margin: 20px auto 0 auto;
+  }
+
+  .main-program {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .mid-program {
+    margin-top: 15px;
+  }
+
+  .main-program-elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-program-element img {
+    width: 30%;
+    margin-right: 20px;
+  }
+
+  .main-program-element {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .main-program-element h3 {
+    width: 30%;
+    margin-right: 20px;
+    color: #ec5242;
+  }
+
+  .join-button {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .join-button button {
+    padding: 1.5rem 2rem;
+    font-size: 4vw;
+    border: none;
+    background-color: var(--caporange);
+    color: var(--capgrey);
+  }
+
+  .featured-speakers {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .other-speakers {
+    display: none;
+    flex-direction: column;
+  }
+
+  .partners-logo img {
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .top-menu {
+    background-color: var(--capblack);
+    padding: 10px 0;
+  }
+
+  .menu-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+  }
+
+  .icons-brand {
+    display: flex;
+    gap: 15px;
+  }
+
+  .fa-brands {
+    color: var(--capgrey);
+    font-size: 20px;
+  }
+
+  .sign {
+    margin-left: 40px;
+  }
+
+  .sign-list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+
+  .sign-list a {
+    color: var(--capgrey);
+    text-decoration: none;
+  }
+
+  .nav-bar-desktop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  .desktop-links ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+  }
+
+  .nav-bar-desktop img {
+    display: block;
+    height: 50px;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .desktop-links a {
+    text-decoration: none;
+    color: var(--capblack);
+  }
+
+  #last-menu {
+    border: solid 5px var(--caporange);
+    color: var(--caporange);
+    padding: 10px;
+    margin-left: 40px;
+  }
+
+  .intro {
+    padding: 70px 0;
+    background-image: url("images/desktop-background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .intro-title {
+    width: 70%;
+    margin-left: 135px;
+  }
+
+  .intro-title h3 {
+    font-size: 2rem;
+  }
+
+  .intro-title h1 {
+    font-size: 4rem;
+  }
+
+  .intro-text {
+    width: 50%;
+    margin-left: 155px;
+  }
+
+  .intro-date {
+    margin-left: 155px;
+  }
+
+  .intro-date h3 {
+    font-size: 1.2rem;
+  }
+
+  .intro-date p {
+    font-size: 1.3rem;
+  }
+
+  .main-program {
+    padding: 40px 0;
+  }
+
+  .main-program-title {
+    font-size: 1.4rem;
+  }
+
+  .main-program-elements {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 3px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .main-program-element {
+    flex-direction: column;
+  }
+
+  .main-program-element h3 {
+    font-weight: 800;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .main-program p {
+    text-align: center;
+  }
+
+  .main-program-element:hover {
+    border: solid 2px #ffff;
+  }
+
+  .join-button {
+    display: none;
+  }
+
+  .see-whole {
+    text-align: center;
+    padding: 3rem 0;
+  }
+
+  .see-whole a {
+    color: #ffff;
+    word-spacing: 0.2rem;
+    font-size: 0.8rem;
+  }
+
+  .speakers-div {
+    padding: 40px 0;
+  }
+
+  .featured-speakers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .button-speaker {
+    display: none;
+  }
+
+  .other-speakers {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .partners-logo img {
+    height: 150px;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
