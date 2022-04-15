@@ -327,6 +327,10 @@ footer {
     padding: 10px 0;
   }
 
+  .mobile-header {
+    display: none;
+  }
+
   .menu-container {
     display: flex;
     justify-content: flex-end;
@@ -369,6 +373,12 @@ footer {
     display: flex;
     list-style: none;
     gap: 50px;
+    flex-wrap: wrap;
+  }
+
+  .desktop-links li :hover {
+    color: var(--caporange);
+    text-decoration: underline;
   }
 
   .nav-bar-desktop img {
